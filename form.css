@@ -1,0 +1,47 @@
+.container {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.header{
+    font-size: large;
+    font-family: fantasy;
+}
+
+.form-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 320px;
+    margin: 0 auto;
+    border: solid;
+}
+
+body{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+    .button{
+        display: inline-block;
+        outline: none;
+        cursor: pointer;
+        font-weight: 500;
+        border: 1px solid transparent;
+        border-radius: 2px;
+        height: 36px;
+        line-height: 34px;
+        font-size: 14px;
+        color: black;
+        background-color: #F3AC33;
+        transition: background-color 0.2s ease-in-out 0s, opacity 0.2s ease-in-out 0s;
+        padding: 0 18px;
+    }
+    
+    .button:hover {
+        color: #ffffff;
+        background-color: #F3AC33;
+    }
+
